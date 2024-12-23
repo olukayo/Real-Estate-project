@@ -1,0 +1,53 @@
+  @import url('https://fonts.googleapis.com/css2?family=News+Cycle:wght@400;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sevillana&family=Spicy+Rice&display=swap');
+
+    body {
+      font-family: "Roboto", sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: var(--off-text-color);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    :root {
+  --main-color: #0079f1;
+  --primary-color: #4A90E2;
+  --secondary-color: #A0C4FF;
+  --off-text-color: #FFFFFF;
+  --tertiary-color: #FFC107;
+  --second-surface-color: #2D3ECF;
+  --accent-color: #00FF00;
+  --neutral-color: #E0E0E0;
+  --neutral-variant-color: #4b4949;
+  --error-color: #FF0000;
+}
+    .container {
+      text-align: center;
+    }
+    .button {
+      display: block;
+      width: 200px;
+      margin: 40px auto;
+      padding: 15px 20px;
+      font-size:14px;
+      font-weight: bold;
+      text-align: center;
+      color:var(--neutral-color);
+      background-color:var(--second-surface-color);
+      border: none;
+      border-radius: 8px;
+      text-decoration: none;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+    .button:hover {
+      background-color: #0056cc;
+    }
+    .button.secondary {
+      background-color:var(--primary-color);
+      color: var(--neutral-color);
+    }
+    .button.secondary:hover {
+      background-color: #8ab6ff;
+    }

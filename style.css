@@ -1,0 +1,246 @@
+<<<<<<< HEAD
+<<<<<<< HEAD
+@import url('https://fonts.googleapis.com/css2?family=News+Cycle:wght@400;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sevillana&family=Spicy+Rice&display=swap');
+
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+:root {
+  --main-color: #0079f1;
+  --primary-color: #4A90E2;
+  --secondary-color: #A0C4FF;
+  --off-text-color: #FFFFFF;
+  --tertiary-color: #FFC107;
+  --second-surface-color: #2D3ECF;
+  --accent-color: #00FF00;
+  --neutral-color: #E0E0E0;
+  --neutral-variant-color: #B0B0B0;
+  --error-color: #FF0000;
+}
+
+.app-screen {
+  width: 100%;
+  height: 100%;
+  background-color: var(--main-color);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 4px 10px #00000033;
+  overflow: hidden;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 300px;
+}
+
+.logo {
+  text-align: center;
+  color: var(--off-text-color);
+  font-family: "Roboto", serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo img {
+  width: 38px;
+  height: 38px;
+
+}
+
+.logo h1 {
+  margin: 0;
+  font-size: 24px;
+  font-weight: 700;
+  font-family: "Roboto", serif;
+  font-style: normal;
+}
+
+p {
+  font-size: 14px;
+  margin-top: 5px;
+  margin-left: 20px;
+  color: var(--off-text-color);
+}
+
+.dots {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  margin: 0 5px;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 50%;
+  transition: background-color 0.3s;
+}
+
+.dot.active {
+  background-color: var(--off-text-color);
+}
+
+@media(min-width:1000px) {
+  .app-screen {
+    width: 100%;
+    height: 100%;
+  }
+
+  .content {
+    margin-top: 300px;
+  }
+}
+
+@media(max-width:500px) {
+  .app-screen {
+    width: 100%;
+    height: 100%;
+  }
+
+  .content {
+    margin-top: 300px;
+  }
+}
+=======
+=======
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+>>>>>>> d6e1a3e25d8bfacb04dd5be7edbc370ad5821c80
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+
+<<<<<<< HEAD
+>>>>>>> 5414a4ced6fc5f06801eb7e86fab7865756b4300
+=======
+.main {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* Spacing between image and heading */
+}
+
+.main img {
+  width: 60px;
+}
+
+.main h1 {
+  font-weight: 900;
+  font-size: 2.5rem; /* Default size for large screens */
+}
+
+p {
+  font-weight: 700;
+  font-size: 1rem;
+}
+
+.load {
+  margin-top: 4rem; 
+  display: flex;
+  gap: 20px; /* Consistent gap between items */
+  flex-wrap: wrap; /* Ensures items wrap on small screens */
+  justify-content: center;
+}
+.load:first-child{
+  background-color: black;
+}
+
+.load div {
+  border: 1px solid #f0f0f0;
+  border-radius: 15px; /* Subtle roundness */
+  width: 50px; /* Adjusted for visibility */
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f0f0f0;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+.child{
+  background-color: black;
+}
+
+.load div:hover {
+  transform: scale(1.1);
+  background-color: #e0e0e0;
+}
+
+.load div:active {
+  background: black;
+  color: black;
+}
+
+/* Media Queries */
+
+/* Small devices (phones, max-width: 600px) */
+@media (max-width: 600px) {
+  .main h1 {
+    font-size: 2rem; /* Smaller heading */
+  }
+
+  p {
+    font-size: 0.9rem;
+  }
+
+  .load {
+    gap: 10px;
+  }
+
+  .load div {
+    width: 10px;
+    height: 10px;
+  }
+}
+
+/* Medium devices (tablets, max-width: 768px) */
+@media (max-width: 768px) {
+  .main h1 {
+    font-size: 2.2rem;
+  }
+
+  .load div {
+    width: 10px;
+    height: 10px;
+  }
+}
+
+/* Large devices (desktops, max-width: 992px) */
+@media (max-width: 992px) {
+  .main h1 {
+    font-size: 2.5rem;
+  }
+
+  .load div {
+    width: 10px;
+    height: 10px;
+  }
+}
+
+/* Default styles for extra large screens (min-width: 993px) */
+@media (min-width: 993px) {
+  .load div {
+    width: 10px;
+    height: 10px;
+  }
+}
+>>>>>>> d6e1a3e25d8bfacb04dd5be7edbc370ad5821c80
