@@ -4,7 +4,8 @@ const links = [
   '../index.html', // Replace with your desired page URL
   '/techy-jaunt-ass/Link-1/link1.html',
   '/techy-jaunt-ass/Link-2/link2.html',
-  '/techy-jaunt-ass/Link-3/custom.html'
+  '/techy-jaunt-ass/Link-3/custom.html',
+  '/techy-jaunt-ass/Link-4/main.html'
 ];
 
 function activateDot(index) {
